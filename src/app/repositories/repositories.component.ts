@@ -13,9 +13,13 @@ export class RepositoriesComponent implements OnInit {
   constructor(private profileService:profileService) { 
 
   }
-  findRepo(){
-   
-    }
+  findRepo () {
+    this.profileService.UpdateRepo(this.repoName);
+    this.profileService.searchrepos().subscribe(repo => {
+      this.repoitems = repo["items"];
+      // console.log(this.repoitems);
+    })
+  }
     
   ngOnInit(): void {
   }
