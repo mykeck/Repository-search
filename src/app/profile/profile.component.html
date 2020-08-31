@@ -1,7 +1,7 @@
 <form>
     <div class="form-group">
         <label style="text-transform: lowercase;">search By:</label>
-        <input type="text" name="search" [(ngModel)]='username' (keyup)="findUser()">
+        <input type="text" name="search" [(ngModel)]='username'  (keyup)="findUser()">
     </div>
 </form>
 <div *ngIf="user" class="container">

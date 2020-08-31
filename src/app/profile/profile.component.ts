@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {profileService} from 'src/app/profile.service'
 
 @Component({
   selector: 'app-profile',
@@ -6,10 +7,32 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./profile.component.css']
 })
 export class ProfileComponent implements OnInit {
+  user: any;
+  userRepos:any;
+  username: string = 'shi-km'
+  imageWidth: number = 140;
+  imageHeight: number = 190;
 
-  constructor() { }
+  constructor(private profileService: profileService) { 
+    
+  }
 
-  ngOnInit(): void {
+  findUser () {
+    this.profileService.UpdateUser(this.username);
+
+    this.profileService.getUser().subscribe(user => {
+      // console.log(user);
+      this.user = user;
+    });
+
+    this.profileService.getUserRepos().subscribe(repos => {
+      // console.log(repos);
+      this.userRepos = repos;
+    })
+  }
+
+  ngOnInit() {
+    this.findUser()
   }
 
 }

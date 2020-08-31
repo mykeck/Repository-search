@@ -5,6 +5,12 @@ import {Injectable} from '@angular/core';
 })
 
 export class profileService{
+  getUserRepos() {
+    throw new Error("Method not implemented.");
+  }
+  getUser() {
+    throw new Error("Method not implemented.");
+  }
     username: string;
     repositoryName: string;
     clientId: string = ''
