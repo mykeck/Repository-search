@@ -6,12 +6,6 @@ import {HttpClient,HttpHeaders} from '@angular/common/http'
 })
 
 export class profileService{
-  // getUserRepos() {
-  //   throw new Error("Method not implemented.");
-  // }
-  // getUser() {
-  //   throw new Error("Method not implemented.");
-  // }
     username: string;
     clientId: string = "7dcb45356782274866f5";
     repoName: string;
