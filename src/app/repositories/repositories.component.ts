@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { profileService} from 'src/app/profile.service'
+// import { HttpClientModule} from '@angular/common/http';
 
 @Component({
   selector: 'app-repositories',
@@ -17,6 +18,7 @@ export class RepositoriesComponent implements OnInit {
     this.profileService.UpdateRepo(this.repoName);
     this.profileService.searchrepos().subscribe(repo => {
       this.repoitems = repo["items"];
+      console.log(repo)
      
     })
   }

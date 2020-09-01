@@ -9,9 +9,9 @@ import {profileService} from 'src/app/profile.service'
 export class ProfileComponent implements OnInit {
   user: any;
   userRepos:any;
-  username: string = 'shi-km'
-  imageWidth: number = 140;
-  imageHeight: number = 190;
+  username: string = 'mykeck'
+  imageWidth: number = 130;
+  imageHeight: number = 170;
 
   constructor(private profileService: profileService) { 
     
