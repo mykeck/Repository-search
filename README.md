@@ -1,27 +1,37 @@
-# RepositorySearch
+# Github Search
+check it out /////
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.6.
+# Description
+This is a web application for performing github searches using usernames and repositories.
 
-## Development server
+#### By *Mike kiragu
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Setup/Installation Requirements
 
-## Code scaffolding
+* Clone this repo to your machine
+* `git clone `/////`
+* `cd into github-search`
+* Navigate to src  and open it on your favorite browser
+Your browser must be Angular and node.js enabled for this to work
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Known Bugs
+No known bugs yet
 
-## Build
+# BEHAVIOUR DRIVEN DEVELOPMENT
+* select the user option to search github user
+* select the repos option to search by repository name 
+*Upon clicking the user option the search will show the name of your  input with their github details e.g no of followers,no of repositories
+* There will be option to view the project done by the person youve searched onclicking it you will have a glance of the persons project 
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-## Running unit tests
+## Technologies Used
+* Angular
+* JavaScript
+* HTML
+* CSS
+* Bootstrap
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+### License
+* MIT
+`Copyright (c) 2020 mike kiragu`

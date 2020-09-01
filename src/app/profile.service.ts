@@ -1,12 +1,12 @@
 import {Injectable} from '@angular/core';
-import {HttpClient,HttpHeaders} from '@angular/common/http'
+import {HttpClient,HttpHeaders} from '@angular/common/http';
 
 @Injectable({
     providedIn: 'root'
 })
 
 export class profileService{
-    username: string;
+    username: string="mykeck";
     clientId: string = "7dcb45356782274866f5";
     repoName: string;
     clientSecret: string = "06ac225c52db02d7c76c536b1ee07475a6b287f4";

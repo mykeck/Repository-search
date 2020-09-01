@@ -9,6 +9,7 @@ import { TimeAgoPipe} from './time-ago.pipe'
 import { ProfileComponent } from './profile/profile.component';
 import { RepositoriesComponent } from './repositories/repositories.component';
 import { HighlightDirective} from  './highlight.directive';
+import { NavbarComponent } from './navbar/navbar.component';
 
 
 
@@ -19,6 +20,7 @@ import { HighlightDirective} from  './highlight.directive';
     RepositoriesComponent,
     HighlightDirective,
     TimeAgoPipe,
+    NavbarComponent,
   ],
   imports: [
     BrowserModule,

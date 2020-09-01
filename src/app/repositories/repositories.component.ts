@@ -18,7 +18,7 @@ export class RepositoriesComponent implements OnInit {
     this.profileService.UpdateRepo(this.repoName);
     this.profileService.searchrepos().subscribe(repo => {
       this.repoitems = repo["items"];
-      console.log(repo)
+      // console.log(repo)
      
     })
   }
