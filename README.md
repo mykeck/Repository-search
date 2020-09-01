@@ -1,5 +1,5 @@
 # Github Search
-check it out /////
+check it out mykeck.github.io/repository-search/
 
 # Description
 This is a web application for performing github searches using usernames and repositories.
@@ -9,7 +9,7 @@ This is a web application for performing github searches using usernames and rep
 ## Setup/Installation Requirements
 
 * Clone this repo to your machine
-* `git clone `/////`
+* `git clone `mykeck.github.io/repository-search/`
 * `cd into github-search`
 * Navigate to src  and open it on your favorite browser
 Your browser must be Angular and node.js enabled for this to work
@@ -17,7 +17,7 @@ Your browser must be Angular and node.js enabled for this to work
 ## Known Bugs
 No known bugs yet
 
-# BEHAVIOUR DRIVEN DEVELOPMENT
+# BDD
 * select the user option to search github user
 * select the repos option to search by repository name 
 *Upon clicking the user option the search will show the name of your  input with their github details e.g no of followers,no of repositories
